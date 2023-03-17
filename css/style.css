@@ -1617,6 +1617,9 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .box-29291 {
       margin-right: 0px; } }
+  @media (max-width: 400px) {
+    .box-29291 {
+      padding: 1.5rem; } }
 
 .box-92819 {
   z-index: 2;
@@ -1693,4 +1696,22 @@ h1, h2, h3, h4, h5,
     .welcome-blog__image{
       height: 720px;
       object-fit: cover;
+    }
+    @media (max-width: 500px) {
+      .welcome-blog__image{
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .box-92819{
+        padding: 2rem;
+      }
+    }
+
+    @media (max-width: 394px) {
+      .ftco-title{
+        font-size: 1.5rem;
+      }
     }
